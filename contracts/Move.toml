@@ -1,0 +1,11 @@
+[package]
+name = "auto_renewal"
+version = "0.1.0"
+edition = "2024.beta"
+
+[dependencies]
+walrus = { git = "https://github.com/MystenLabs/walrus.git", subdir = "contracts/walrus", rev = "testnet-v1.45.2" }
+wal = { git = "https://github.com/MystenLabs/walrus.git", subdir = "contracts/wal", rev = "testnet-v1.45.2" }
+
+[addresses]
+auto_renewal = "0x0"
